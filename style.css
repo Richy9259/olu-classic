@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(/imgs/1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.navi {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-1 {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-1 a {
+  color: white;
+}
+
+.nav-1 :hover {
+  color: white;
+}
+
+span {
+  color: blue;
+}
+
+.logo {
+  color: white;
+  display: flex;
+}
+
+.search {
+  padding-top: 10px;
+}
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown :hover {
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 2px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 11px 15px;
+  text-decoration: none;
+  display: block;
+  width: 250px;
+  font-size: 13px;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+  color: rgb(75, 75, 236);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.crypto {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+.span h2 {
+  color: #2bb3d5;
+  font-size: 50px;
+}
+
+.rav h2 {
+  padding-top: 30px;
+  font-size: 90px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+.button-1 {
+  background-color: #2bb3d5;
+  font-size: 20px;
+  height: 40px;
+  width: 190px;
+}
+
+.button-1 a {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+}
+
+.button-1 :hover {
+  color: white;
+}
+
+.button-2 {
+  background-color: #2bb3d5;
+  font-size: 20px;
+  height: 40px;
+  width: 190px;
+}
+
+.button-2 a {
+  text-decoration: none;
+  color: white;
+  padding-left: 30px;
+}
+
+.button-2 :hover {
+  color: white;
+}
+
+.about {
+  border: 1px solid #2bb3d5;
+}
